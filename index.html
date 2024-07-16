@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetalDoors - Tu tienda de puertas metálicas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>MetalDoors</h1>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#productos"><i class="fas fa-door-open"></i></a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <img src="data:image/jpeg;base64,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" alt="Puerta Metálica 1">
+                </div>
+            </div>
+            <div class="overlay">
+                <h2>Bienvenido a MetalDoors</h2>
+                <p>Las mejores puertas metálicas para tu hogar y negocio. Calidad y seguridad garantizadas.</p>
+                <p class="frase">"Protección, calidad y diseño en cada puerta."</p>
+            </div>
+        </section>
+        <section id="productos" class="product-list">
+            <h2>Nuestros Productos</h2>
+            <div class="cart">
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica1.jpg" alt="Puerta Metálica 1">
+                <h3>Puerta Metálica Básica</h3>
+                <p>Precio: $200</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica2.jpg" alt="Puerta Metálica 2">
+                <h3>Puerta Metálica Reforzada</h3>
+                <p>Precio: $300</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica3.jpg" alt="Puerta Metálica 3">
+                <h3>Puerta Metálica con Ventana</h3>
+                <p>Precio: $250</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica4.jpg" alt="Puerta Metálica 4">
+                <h3>Puerta Metálica de Seguridad</h3>
+                <p>Precio: $400</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica5.jpg" alt="Puerta Metálica 5">
+                <h3>Puerta Metálica Industrial</h3>
+                <p>Precio: $350</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica6.jpg" alt="Puerta Metálica 6">
+                <h3>Puerta Metálica Automática</h3>
+                <p>Precio: $500</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica6.jpg" alt="Puerta Metálica 6">
+                <h3>Puerta Metálica Automática</h3>
+                <p>Precio: $500</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://example.com/puerta_metalica6.jpg" alt="Puerta Metálica 6">
+                <h3>Puerta Metálica Automática</h3>
+                <p>Precio: $500</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                <button class="remove-from-cart">Quitar del Carrito</button>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, contáctanos a través de nuestro correo electrónico: info@MURILLO.com o llámanos al 930-802-435.</p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
